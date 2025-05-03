@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematography & Landscapes | John Doe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Lightbox CSS for gallery images -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">JD</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Profile</a></li>
+                <li><a href="lifestyle.html">Lifestyle</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="gallery-main">
+        <!-- Gallery Banner -->
+        <section class="gallery-banner">
+            <div class="banner-content">
+                <h1>Cinematography & Landscapes</h1>
+                <p>Visual explorations in natural beauty and cinematic storytelling</p>
+            </div>
+        </section>
+
+        <!-- Gallery Navigation -->
+        <section class="gallery-navigation">
+            <div class="gallery-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="cinema">Cinematic</button>
+                <button class="category-btn" data-category="landscapes">Landscapes</button>
+                <button class="category-btn" data-category="scenery">Scenery</button>
+                <button class="category-btn" data-category="videos">Videos</button>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="gallery-grid-container">
+            <div class="gallery-grid">
+                <!-- Cinematic Category -->
+                <div class="gallery-item" data-category="cinema">
+                    <a href="images/gallery/cinema1-large.jpg" data-lightbox="gallery" data-title="Golden Hour Silhouette">
+                        <img src="images/gallery/cinema1.jpg" alt="Golden Hour Silhouette">
+                        <div class="gallery-overlay">
+                            <h3>Golden Hour Silhouette</h3>
+                            <p>Cinematic shot with dramatic lighting</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="cinema">
+                    <a href="images/gallery/cinema2-large.jpg" data-lightbox="gallery" data-title="Morning Mist">
+                        <img src="images/gallery/cinema2.jpg" alt="Morning Mist">
+                        <div class="gallery-overlay">
+                            <h3>Morning Mist</h3>
+                            <p>Atmospheric scene with natural fog effects</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="cinema">
+                    <a href="images/gallery/cinema3-large.jpg" data-lightbox="gallery" data-title="Urban Reflection">
+                        <img src="images/gallery/cinema3.jpg" alt="Urban Reflection">
+                        <div class="gallery-overlay">
+                            <h3>Urban Reflection</h3>
+                            <p>City lights captured in rain puddles</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="cinema">
+                    <a href="images/gallery/cinema4-large.jpg" data-lightbox="gallery" data-title="Dramatic Coastline">
+                        <img src="images/gallery/cinema4.jpg" alt="Dramatic Coastline">
+                        <div class="gallery-overlay">
+                            <h3>Dramatic Coastline</h3>
+                            <p>Moody ocean scene with stormy clouds</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Landscapes Category -->
+                <div class="gallery-item" data-category="landscapes">
+                    <a href="images/gallery/landscape1-large.jpg" data-lightbox="gallery" data-title="Mountain Vista">
+                        <img src="images/gallery/landscape1.jpg" alt="Mountain Vista">
+                        <div class="gallery-overlay">
+                            <h3>Mountain Vista</h3>
+                            <p>Panoramic view of Malaysian highlands</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="landscapes">
+                    <a href="images/gallery/landscape2-large.jpg" data-lightbox="gallery" data-title="Rice Terraces">
+                        <img src="images/gallery/landscape2.jpg" alt="Rice Terraces">
+                        <div class="gallery-overlay">
+                            <h3>Rice Terraces</h3>
+                            <p>Agricultural patterns creating natural art</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="landscapes">
+                    <a href="images/gallery/landscape3-large.jpg" data-lightbox="gallery" data-title="Desert Dunes">
+                        <img src="images/gallery/landscape3.jpg" alt="Desert Dunes">
+                        <div class="gallery-overlay">
+                            <h3>Desert Dunes</h3>
+                            <p>Shifting sands creating natural sculptures</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="landscapes">
+                    <a href="images/gallery/landscape4-large.jpg" data-lightbox="gallery" data-title="Rainforest Canopy">
+                        <img src="images/gallery/landscape4.jpg" alt="Rainforest Canopy">
+                        <div class="gallery-overlay">
+                            <h3>Rainforest Canopy</h3>
+                            <p>Lush greenery in tropical Malaysia</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Scenery Category -->
+                <div class="gallery-item" data-category="scenery">
+                    <a href="images/gallery/scenery1-large.jpg" data-lightbox="gallery" data-title="Coastal Twilight">
+                        <img src="images/gallery/scenery1.jpg" alt="Coastal Twilight">
+                        <div class="gallery-overlay">
+                            <h3>Coastal Twilight</h3>
+                            <p>Langkawi shore during blue hour</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="scenery">
+                    <a href="images/gallery/scenery2-large.jpg" data-lightbox="gallery" data-title="Forest Path">
+                        <img src="images/gallery/scenery2.jpg" alt="Forest Path">
+                        <div class="gallery-overlay">
+                            <h3>Forest Path</h3>
+                            <p>Winding trail through ancient trees</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="scenery">
+                    <a href="images/gallery/scenery3-large.jpg" data-lightbox="gallery" data-title="River Sunset">
+                        <img src="images/gallery/scenery3.jpg" alt="River Sunset">
+                        <div class="gallery-overlay">
+                            <h3>River Sunset</h3>
+                            <p>Golden reflections on calm water</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="scenery">
+                    <a href="images/gallery/scenery4-large.jpg" data-lightbox="gallery" data-title="Verdant Valley">
+                        <img src="images/gallery/scenery4.jpg" alt="Verdant Valley">
+                        <div class="gallery-overlay">
+                            <h3>Verdant Valley</h3>
+                            <p>Lush vegetation in Cameron Highlands</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Videos Category -->
+                <div class="gallery-item" data-category="videos">
+                    <a href="https://www.youtube.com/embed/EXAMPLE_VIDEO_ID_1" data-lightbox="video" data-title="Waterfall Cascade">
+                        <img src="images/gallery/video1.jpg" alt="Waterfall Cascade">
+                        <div class="gallery-overlay">
+                            <h3>Waterfall Cascade</h3>
+                            <p>Cinematic slow motion of forest waterfall</p>
+                            <div class="video-play-icon"><i class="fas fa-play-circle"></i></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="videos">
+                    <a href="https://www.youtube.com/embed/EXAMPLE_VIDEO_ID_2" data-lightbox="video" data-title="Ocean Waves">
+                        <img src="images/gallery/video2.jpg" alt="Ocean Waves">
+                        <div class="gallery-overlay">
+                            <h3>Ocean Waves</h3>
+                            <p>Rhythmic patterns of Malaysian coastline</p>
+                            <div class="video-play-icon"><i class="fas fa-play-circle"></i></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="videos">
+                    <a href="https://www.youtube.com/embed/EXAMPLE_VIDEO_ID_3" data-lightbox="video" data-title="City Timelapse">
+                        <img src="images/gallery/video3.jpg" alt="City Timelapse">
+                        <div class="gallery-overlay">
+                            <h3>City Timelapse</h3>
+                            <p>Day to night transition of Kuala Lumpur</p>
+                            <div class="video-play-icon"><i class="fas fa-play-circle"></i></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item" data-category="videos">
+                    <a href="https://www.youtube.com/embed/EXAMPLE_VIDEO_ID_4" data-lightbox="video" data-title="Cloud Formation">
+                        <img src="images/gallery/video4.jpg" alt="Cloud Formation">
+                        <div class="gallery-overlay">
+                            <h3>Cloud Formation</h3>
+                            <p>Dramatic storm clouds gathering</p>
+                            <div class="video-play-icon"><i class="fas fa-play-circle"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>John Doe</h3>
+                <p>Web Developer | Designer</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Profile</a></li>
+                    <li><a href="lifestyle.html">Lifestyle</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Me</h4>
+                <p><i class="fas fa-envelope"></i> john.doe@example.com</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fas fa-map-marker-alt"></i> STIWK University, Malaysia</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox JS for gallery images -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
